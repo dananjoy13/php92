@@ -1,0 +1,309 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*****start topbar*****/
+
+.topbar{
+	background-color:#be2edd;
+	width:100%;
+	height:50px;
+}
+/*****start topbar call*****/
+.call{
+	font-size:22px;
+	padding-left:32px;
+}
+.call a {
+	text-decoration:none;
+	color:#4056A1;
+}
+.call a i{
+	padding-top:17px;
+}
+.call a:hover{
+	color:#fff;
+}
+/*****start topbar social*****/
+.social{
+	float:right;
+
+}
+.social a i{
+	padding:17px  ;
+	font-size:22px;
+	color:#EFE1BA;
+}
+.social a i:hover{
+	color:#fff;
+	background-color:blu;
+}
+/*****start menubar logo*****/
+
+.logo img{
+	width:80px;
+	height:60px;
+	opacity:0.6;
+
+}
+/*****start menubar menu*****/
+.menu{
+	background-color:#e056fd;
+	height:60px;
+
+
+}
+.menubar{
+	float:right;
+	padding-top:20px;
+	font-size:20px;
+
+}
+.menubar  ul li {
+	display:inline;
+	padding:13px 13px 13px 13px;
+}
+.menubar ul li a{
+	text-decoration:none;
+	color:#130f40;
+}
+.menubar ul :hover{
+	background-color:#;
+	color:#fff;
+
+}
+/*****start banner *****/
+.banner{
+	position:relative;
+	height:400px;
+	background:url(../img/2.jpg) no-repeat center;
+	background-size:cover;
+	overflow:hidden;
+	margin-top:1px;
+
+	}
+.demo{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	color:white;
+	font-weight:700;
+	text-transform:uppercase;
+}
+.demo h1{
+	font-size:72px;
+	letter-spacing:0.2em;
+	margin:0;
+
+}
+.demo h1 span{
+	border:10px solid white;
+	padding:6px 14px;
+	display:inline-block;
+
+}
+.des{
+	margin:20px;
+	display:block;
+	font-size:26px;
+	text-shadow:0 0 10px black;
+}
+.btn{
+	color:#313131;
+	padding:10px 24px;
+	font-size:20px;
+	text-decoration:none;
+	background:#f1f1f1;
+	border-radius:8px;
+	transition:0.3s all;
+}
+.btn:hover{
+	opacity:0.4;
+}
+/*****start service section *****/
+.services{
+	background:#f1f1f1;
+	text-align:center;
+}
+.services h1{
+	display:inline-block;
+	text-transform:uppercase;
+	border-bottom:4px solid #4834d4;
+	font-size:20px;
+	padding-bottom:10px;
+	padding-top:40px;
+
+}
+.content{
+	max-width:1200px;
+	margin:auto;
+	overflow:hidden;
+	padding:20px;
+}
+.service{
+	display:inline-block;
+	width: calc(100% / 3);
+	margin:0 -2px;
+	padding:20px;
+	box-sizing:border-box;
+	cursor:pointer;
+	transition: 0.4s;
+
+}
+
+.service:hover{
+	background: #ddd;
+}
+.service i{
+	color:#686de0;
+	font-size:50px;
+	margin-bottom:30px;
+}
+.service i:hover{
+	color:#f9ca24;
+}
+.service p:hover{
+	color:#4834d4;
+}
+
+}
+.service h2{
+	font-size:18px;
+	text-transform:uppercase;
+	font-weight:500;
+	margin:0;
+}
+.service p{
+	color:gray;
+	font-size:15px;
+	font-weight:500;
+	 text-align: justify;
+}
+/*****start team section *****/
+.team{
+	overflow:hidden;
+	text-align:center;
+	background: #34495e;
+	padding:60px;
+}
+.team h1{
+	text-transform:uppercase;
+	margin-bottom:10px;
+	color:white;
+	font-size:40px;
+	padding-bottom:10px;
+
+}
+.border{
+	display:block;
+	margin:auto;
+	width:160px;
+	height:3px;
+	background:#3498db;
+	margin-bottom:30px;
+}
+.ps a img{
+	height:185px;
+	width:185px;
+}
+.ps{
+	margin-bottom:40px;
+}
+.ps a{
+	display:inline-block;
+	margin:0 30px;
+	width:160px;
+	height:160px;
+	overflow:hidden;
+	border-radius:50%;
+}
+.ps a img{
+	width:100%;
+	transition:0.4s all;
+
+}
+.ps a:hover>img{
+	opacity:0.6;
+
+}
+.section{
+	width:600px;
+	margin:auto;
+	font-size:20px;
+	color:white;
+	text-align:justify;
+	height:0;
+	overflow:hidden;
+
+}
+.section:target{
+	height:auto;
+}
+.name{
+	display:block;
+	margin-bottom:30px;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:22px;
+}
+/*****start team section *****/
+.contract{
+	background:skyblue;
+	width:600px;
+	padding:30px;
+	text-align:center;
+	margin:0 auto;
+	padding-top:25px;
+}
+.contract h2{
+	text-transform:uppercase;
+	color:#fff;
+	padding-top:30px;
+	padding-bottom:5px;
+	border-bottom:5px solid #3498DB;
+	display:inline-block;
+}
+.contract p{
+	color:#fff;
+	font-weight:bold;
+	padding-bottom:20px;
+	padding-top:30px;
+	font-size:20px;
+}
+.contract input[type=text],
+.contract input[type=email],
+textarea{
+	width:100%;
+	margin-bottom:15px;
+	padding:5px;
+}
+.contract a {
+	display:block;
+	background:green;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	height:30px;
+	padding-top:7px;
+}
+/*****start footer section *****/
+.footer{
+	height:200px;
+	width:100%;
+	background-color:black;
+}
+.c{
+	text-align:center;
+	color:#fff;
+}
+.c h3{
+	padding-top:10px;
+}
+.c a{
+	text-align:center;
+}
+
